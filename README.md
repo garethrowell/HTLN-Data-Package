@@ -1,6 +1,6 @@
 # HTLN-Data-Package
 ----------------
-Contains project notes and miscellaneous code for creating NPS HTLN data package components. The two main areas are metadata (EML) and exploratory data analyses / data validation / certification documents for dataset publishing. The goal is to write a set of standard operating procedures (SOP) for creating and publishing HTLN I&M data packages that might also be useful to others with similar datasets. The working example is the HTLN breeding bird protocol and database. Background info on HTLN breeding bird monitoring project is here:
+Contains project notes and miscellaneous code for creating NPS HTLN data package components. The main areas are metadata (EML) and data validation including exploratory data analyses / data summary / certification documents for dataset publishing. Another objective is to write a set of standard operating procedures (SOP) for creating and publishing HTLN I&M data packages that might also be useful to others with similar datasets. The working example is the HTLN breeding bird protocol and database. Background info on HTLN breeding bird monitoring project is here:
 
 https://www.nps.gov/im/htln/birds.htm
 
@@ -14,7 +14,7 @@ Successfully installed packages associated with NPSdataverse (yay!).
 https://github.com/nationalparkservice/NPSdataverse
 
 -----------------
-# ToDo
+# Tasks
 
 Get a data science education in R...
 1. Finish Grolemund (2014) Hands-On Programming with R

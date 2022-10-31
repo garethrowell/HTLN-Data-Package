@@ -16,13 +16,13 @@ https://github.com/nationalparkservice/NPSdataverse
 -----------------
 # ToDo
 
-Learn R 
+Get a data science education in R...
 1. Finish Grolemund (2014) Hands-On Programming with R
 2. Complete R Tutorial - W3Schools
 3. Complete Wickham and Grolemund (2017) R for Data Science
-   (All this will hopefully contribute to another direction which is just better skills with data science)
+4. And get totally lost in data visualization with Wickham's ggplot2: Elegant Graphics for Data Analysis (Use R!) 2nd Edition
 
-Learn about processing EML with R
+Learn about processing EML with R and data sharing is a good thing...
 1. CRAN - EML package and associated literature
 2. EMLassemblyline (EAL) and EDI 
 3. Custom NPS packages provided through NPSdataverse 

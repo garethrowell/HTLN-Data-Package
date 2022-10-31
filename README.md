@@ -24,4 +24,4 @@ https://github.com/nationalparkservice/NPSdataverse
 # Learn about processing EML with R
 1. CRAN - EML package and associated literature
 2. EMLassemblyline (EAL) and EDI 
-3. Other NPS packages provided through NPSdataverse
+3. NPS packages provided through NPSdataverse

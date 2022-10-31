@@ -17,7 +17,7 @@ https://github.com/nationalparkservice/NPSdataverse
 # ToDo
 
 # Learn R 
-1 Finish Grolemund (2014) Hands-On Programming with R
+1. Finish Grolemund (2014) Hands-On Programming with R
 2. Complete R Tutorial - W3Schools
 3. Complete Wickham and Grolemund (2017) R for Data Science
 

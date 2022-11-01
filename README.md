@@ -16,13 +16,21 @@ https://github.com/nationalparkservice/NPSdataverse
 -----------------
 # Tasks
 
-Get a data science education in R...
+Part I: Get up to speed with R...
 1. Finish Grolemund (2014) Hands-On Programming with R
 2. Complete R Tutorial - W3Schools
 3. Complete Wickham and Grolemund (2017) R for Data Science
-4. And get totally lost in data visualization for awhile with Wickham's ggplot2: Elegant Graphics for Data Analysis (Use R!) 2nd Edition
+4. Take a deep dive into data visualization with Wickham's ggplot2: Elegant Graphics for Data Analysis (Use R!) on-line book
 
-Learn about processing EML with R and that data sharing is a good thing...
+Part II: Learn about processing EML with R and that data sharing is a good thing...
 1. CRAN - EML package and associated literature
 2. EMLassemblyline (EAL) and EDI 
 3. Custom NPS R packages provided through NPSdataverse to facilitate publication of datasets on the NPS Datastore
+
+Part III. Create HTLN breeding bird data package
+1. Integrate with Part II, use the bird data to test things while studying up on EML process
+2. Document the process as a work flow in a R markdown document
+3. Develop QA process for publishing the bird data
+4. Test the custom r packages for DataStore using the bird data
+
+

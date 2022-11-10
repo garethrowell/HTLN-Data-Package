@@ -13,24 +13,35 @@ Successfully installed packages associated with NPSdataverse (yay!).
 
 https://github.com/nationalparkservice/NPSdataverse
 
+20221110
+
+Downloaded EML_Creation_Script.R from here
+
+https://github.com/nationalparkservice/NPS_EML_Script
+
+Created T-SQL script called BirdObservationThru2022.sql
+Created .csv file called HTLNBreedingBirds_BirdObs.csv
+
+Copied EML_Creation_Script.R to EML_Creation_Script_HTLNBreedingBirds.R
+
 -----------------
 # Tasks
 
 Part I: Get up to speed with R...
-1. Finish Grolemund (2014) Hands-On Programming with R
+x 1. Finish Grolemund (2014) Hands-On Programming with R
 2. Complete R Tutorial - W3Schools
 3. Complete Wickham and Grolemund (2017) R for Data Science
 4. Take a deep dive into data visualization with Wickham's ggplot2: Elegant Graphics for Data Analysis (Use R!) on-line book
 
 Part II: Learn about processing EML with R and that data sharing is a good thing...
-1. CRAN - EML package and associated literature
-2. EMLassemblyline (EAL) and EDI 
+x 1. Downloaded NPSdataverse packages for creating EML / data package
+2. Study up on nationalparkservice repos - https://github.com/nationalparkservice/NPSdataverse; https://github.com/nationalparkservice/NPS_EML_Script,  https://github.com/nationalparkservice/DRR_Template, 
 3. Custom NPS R packages provided through NPSdataverse to facilitate publication of datasets on the NPS Datastore
 
 Part III. Create HTLN breeding bird data package
-1. Integrate with Part II, use the bird data to test things while studying up on EML process
-2. Document the process as a work flow in a R markdown document
-3. Develop QA process for publishing the bird data
-4. Test the custom r packages for DataStore using the bird data
+x 1. Create test .csv file from HTLN_Landbirds database
+x 2. Downloaded EML_Creation_Script.R and copied a breeding birds local copy
+3. ?
+
 
 

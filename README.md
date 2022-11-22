@@ -49,11 +49,3 @@ x 1. Create test .csv file from HTLN_Landbirds database
 x 2. Downloaded EML_Creation_Script.R and copied a breeding birds local copy
 x 3. Exported .csv from HTLN_Landbirds. 
 x 4. Loaded BirdObs.csv into R using fread. 
-
-
-
-
-3. ?
-
-
-

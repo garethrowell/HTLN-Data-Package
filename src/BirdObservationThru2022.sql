@@ -4,9 +4,11 @@ USE HTLN_LandBirds;
 
 
 SELECT P.LocationName AS Plot,  E.EventName AS Event, E.Temperature_C,  
-    W.Code AS Wind, R.Code AS Precip, E.Clouds_pct AS Percent_Cloud, N.Code AS Noise, B.ObservationNumber, I.Name AS Interval, 
-    S.TaxonCode AS AOUCode, B.Distance, D.Code AS DetectionType, X.Name AS Sex, 
-	A.Name AS Age, B.FlockSize, B.IsPreviousPlot, B.IsFlyover, B.Comments
+    W.Code AS Wind, R.Code AS Precip, E.Clouds_pct AS Percent_Cloud, 
+    N.Code AS Noise, B.ObservationNumber, I.Name AS Interval, 
+    S.TaxonCode AS AOUCode, S.TSN, S.Family, S.ScientificName, S.CommonName, 
+    B.Distance, D.Code AS DetectionType, X.Name AS Sex, 
+	  A.Name AS Age, B.FlockSize, B.IsPreviousPlot, B.IsFlyover, B.Comments
 
 FROM dbo.BirdSamplingEvent AS E
   JOIN dbo.BirdObservation as B

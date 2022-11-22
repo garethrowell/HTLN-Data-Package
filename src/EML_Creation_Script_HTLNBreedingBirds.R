@@ -29,37 +29,34 @@ library(tidyverse)
 # item, keep the order the same (i.e. item #1 should correspond to the same file in each vector)
 
 # Metadata filename - becomes the filename, so make sure it ends in _metadata to comply with data package specifications
-metadata_id <- "TEST_HTLN_BreedingBird_metadata"
+metadata_id <- "HTLN_BreedingBird_metadata"
 
 # Overall package title
-package_title <- "TEST_National Park HTLN Breeding Bird Data Package"
+package_title <- "National Park HTLN Breeding Bird Data Package"
 
 # Description of data collection status - choose from 'ongoing' or 'complete'
 data_type <- "ongoing"
   
 # Path to data file(s)
-working_folder <- paste0(str_trim(getwd()),"/","Example_files")
+working_folder <- paste0(str_trim(getwd()),"C:\\Users\\GRowell\\work\\Projects\\DataPackage\\dataset","BirdObs.csv") 
   
 # Vector of dataset filenames 
-data_files <- c("HTLNBreedingBirds_BirdObs.csv",
-                "qry_Export_AA_VegetationDetail.csv")
+data_files <- c("BirdObs.csv")
   
 # Vector of dataset names (brief name for each file)
-data_names <- c("TEST_AA Point Data",
-                "TEST_AA Vegetation Data")
+data_names <- c("BirdObs")
   
 # Vector of dataset descriptions (about 10 words describing each file). Descriptions will be used in auto-generated
 # tables within the ReadMe and DRR. If you need to use more than about 10 words, consider putting that information in
 # the abstract, methods, or additional info sections.
-data_descriptions <- c("TEST_Everglades Vegetation Map Accuracy Assessment point data",
-                       "TEST_Everglades Vegetation Map Accuracy Assessment vegetation data")
+data_descriptions <- c("NPS Heartland I&M Network Breeding Bird Data - Site Conditions and Individual Bird Observations")
 
 # Tell EMLassemblyline where your files will ultimately be located. Create a vector of dataset URLs - for DataStore. I
 # recommend setting this to the main reference page. All data files from a single data package can be accessed from the
 # same page so the URLs are the same.
 
 # The code from the draft reference you initiated above (replace 293181 with your code)
-DSRefCode<-2293181
+DSRefCode<-2295175
 
 # No need to edit this
 DSURL<-paste0("https://irma.nps.gov/DataStore/Reference/Profile/", DSRefCode)

@@ -1,6 +1,8 @@
 # HTLN-Data-Package
 ----------------
-Contains project notes and miscellaneous code for creating NPS HTLN data package components. The main areas are metadata (EML) and data validation including exploratory data analyses / data summary / certification documents for dataset publishing. Another objective is to write a set of standard operating procedures (SOP) for creating and publishing HTLN I&M data packages that might also be useful to others with similar datasets. The working example is the HTLN breeding bird protocol and database. Background info on HTLN breeding bird monitoring project is here:
+Contains project notes and miscellaneous code for creating NPS HTLN data package components. The main areas are metadata (EML) and data validation including exploratory data analyses / data summary / certification documents for dataset publishing. Another objective is to write a set of standard operating procedures (SOP) for creating and publishing HTLN I&M data packages that might also be useful to others with similar datasets. The working example is the HTLN breeding bird protocol and database. The directory ./src is my file dumping ground. Files stored in other directories are functioning executable scripts. Thanks for reading!
+
+Background info on HTLN breeding bird monitoring project is here:
 
 https://www.nps.gov/im/htln/birds.htm
 

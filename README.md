@@ -38,7 +38,6 @@ Part I: Training - just my own deal here...
 x 1. Finish Grolemund (2014) Hands-On Programming with R
 2. Complete R Tutorial - W3Schools
 3. Complete Wickham and Grolemund (2017) R for Data Science
-4. Take a deep dive into data visualization with Wickham's ggplot2: Elegant Graphics for Data Analysis (Use R!) on-line book
 
 Part II: Learn about processing EML with R and that data sharing is a good thing...
 x 1. Downloaded NPSdataverse packages for creating EML / data package

@@ -36,8 +36,7 @@ Loaded the .csv into R dataframe using fread.
 
 Part I: Training - just my own deal here...
 x 1. Finish Grolemund (2014) Hands-On Programming with R
-2. Complete R Tutorial - W3Schools
-3. Complete Wickham and Grolemund (2017) R for Data Science
+2. Complete Wickham and Grolemund (2017) R for Data Science
 
 Part II: Learn about processing EML with R and that data sharing is a good thing...
 x 1. Downloaded NPSdataverse packages for creating EML / data package

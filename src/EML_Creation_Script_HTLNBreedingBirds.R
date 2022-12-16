@@ -32,24 +32,31 @@ library(tidyverse)
 metadata_id <- "HTLN_BreedingBird_metadata"
 
 # Overall package title
-package_title <- "National Park HTLN Breeding Bird Data Package"
+package_title <- "NPS HTLN Breeding Bird Data Package"
 
 # Description of data collection status - choose from 'ongoing' or 'complete'
 data_type <- "ongoing"
   
 # Path to data file(s)
-working_folder <- paste0(str_trim(getwd()),"C:\\Users\\GRowell\\work\\Projects\\DataPackage\\dataset","BirdObs.csv") 
+#working_folder <- paste0(str_trim(getwd()),"C:\\Users\\GRowell\\work\\Projects\\DataPackage\\dataset","BirdObs.csv") 
+#working_folder <- paste0("C:\\Users\\GRowell\\work\\Projects\\DataPackage\\dataset","BirdObs.csv") 
+
+setwd("C:\\Users\\GRowell\\work\\Projects\\DataPackage\\EML_Creation_Script")
+
+working_folder <- getwd()
+
+working_folder
   
 # Vector of dataset filenames 
-data_files <- c("BirdObs.csv")
+data_files <- c("HtLNBreedingBirds_BirdObs.csv")
   
 # Vector of dataset names (brief name for each file)
-data_names <- c("BirdObs")
+data_names <- c("bird_data")
   
 # Vector of dataset descriptions (about 10 words describing each file). Descriptions will be used in auto-generated
 # tables within the ReadMe and DRR. If you need to use more than about 10 words, consider putting that information in
 # the abstract, methods, or additional info sections.
-data_descriptions <- c("NPS Heartland I&M Network Breeding Bird Data - Site Conditions and Individual Bird Observations")
+data_descriptions <- c("NPS Heartland I&M Network Breeding Bird Data contains site conditions and bird observations")
 
 # Tell EMLassemblyline where your files will ultimately be located. Create a vector of dataset URLs - for DataStore. I
 # recommend setting this to the main reference page. All data files from a single data package can be accessed from the
@@ -67,14 +74,15 @@ data_urls <-c(rep(DSURL, length(data_files)))
 # Single file or Vector (list) of tables and fields with scientific names that can be used to fill the taxonomic coverage metadata. Add
 # additional items as necessary. Comment these out and do not run FUNCTION 5 (below) if your data package does not
 # contain species information.
-data_taxa_tables <- c("qry_Export_AA_VegetationDetail.csv")
+data_taxa_tables <- c("BirdSpecies.csv")
 #alternatively, if you have multiple files with taxanomic info:
 # data_taxa_tables <-c("qry_Export_AA_VegetationDetails1.csv", "qry_Export_AA_VegetationDetails2.csv", "etc.csv")
-data_taxa_fields <- c("Scientific_Name")
+#data_taxa_fields <- c("Scientific_Name")
 
 # Table and fields that contain geographic coordinates and site names to fill the geographic coverage metadata
 # Comment these out and do not run FUNCTION 4 (below) if your data package does not contain geographic information.
-data_coordinates_table <- "qry_Export_AA_Points.csv"
+
+data_coordinates_table <- "Test_Location_LL2.csv"
 data_latitude <- "decimalLatitude"
 data_longitude <- "decimalLongitude"
 data_sitename <- "Point_ID"
@@ -84,8 +92,8 @@ data_sitename <- "Point_ID"
 # International Standards Organization's standard 8601. The recommended format for EML is: YYYY-MM-DD, where Y is the
 # four digit year, M is the two digit month code (01 - 12 for example, January = 01), and D is the two digit day of the
 # month (01 - 31).
-startdate <- ymd("2010-01-26")
-enddate <- ymd("2013-01-04")
+startdate <- ymd("2001-05-22")
+enddate <- ymd("2022-06-15")
 
 ## EMLassemblyline Functions -------------------------------------------------------------------------------------------
 # The next set of functions are meant to be considered one by one and only run if applicable to a particular

@@ -1,6 +1,6 @@
 # HTLN-Data-Package
 ----------------
-Contains project notes and miscellaneous code for creating NPS HTLN data package components. The main areas are metadata (EML) and data validation including exploratory data analyses / data summary / certification documents for dataset publishing. The working example is the HTLN breeding bird protocol and database. The directory ./src is my file dumping ground. Files stored in other directories are functioning executable scripts. Thanks for reading!
+Contains files and scripts for creating NPS HTLN data package components. The main areas are metadata (EML) and data validation including exploratory data analyses / data summary / certification documents for dataset publishing. The working example is the HTLN breeding bird protocol and database. The directory ./src is my file dumping ground. Files stored in other directories are functioning executable scripts. Thanks for reading!
 
 Background info on HTLN breeding bird monitoring project is here:
 
@@ -30,22 +30,16 @@ Copied EML_Creation_Script.R to EML_Creation_Script_HTLNBreedingBirds.R
 
 Loaded the .csv into R dataframe using fread.
 
+20221216
+
+Ran first part of EML creation script to create blank text files for the abstract, additional information, custom units, intellectual
+rights, keywords, methods, and personnel. Then ran function to create "attributes_datafilename.txt" to describe the dataset attributes.
+
 
 -----------------
 # Tasks
 
-Part I: Training - just my own deal here...
-x 1. Finish Grolemund (2014) Hands-On Programming with R
-2. Complete Wickham and Grolemund (2017) R for Data Science
+1. Get final version of PointIDs with lat/long in decimal degrees
+2. Fill out the .txt files for the metadata information
+3. Continue working with the EML creation script
 
-Part II: Learn about processing EML with R and that data sharing is a good thing...
-x 1. Downloaded NPSdataverse packages for creating EML / data package
-x 2. Download and begin editing NPS_EML_Script. Begin creating data files to be used in EMLassemblyline.
-3. Study up on nationalparkservice repos - https://github.com/nationalparkservice/NPSdataverse; https://github.com/nationalparkservice/NPS_EML_Script,  https://github.com/nationalparkservice/DRR_Template, 
-
-
-Part III. Create HTLN breeding bird data package - some overlap with Part II. 
-x 1. Create test .csv file from HTLN_Landbirds database
-x 2. Downloaded EML_Creation_Script.R and copied a breeding birds local copy
-x 3. Exported .csv from HTLN_Landbirds. 
-x 4. Loaded BirdObs.csv into R using fread. 
